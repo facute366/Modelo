@@ -161,6 +161,11 @@ img {
     /*background-color: var(--primario);*/
     background-color: var(--blanco);
     border-bottom: 2px solid var(--gris);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .navegacion {
