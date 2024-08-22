@@ -13,7 +13,6 @@ h2,h3,h4,p,strong, .divPrecio{
 
 .navegacion{
     background-color: rgb(31, 31, 31) !important;
-    border: 1px solid rgba(180, 180, 180, 0.205) !important;
     border-radius: 8px;
 }
 
@@ -24,6 +23,9 @@ h2,h3,h4,p,strong, .divPrecio{
 }
 
 @media (max-width: 768px) {
+    .navegacion{
+        border: 1px solid rgba(180, 180, 180, 0.205) !important;
+    }
     .menu-toggle{
         color: white;
     }
