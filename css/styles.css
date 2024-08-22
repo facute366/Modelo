@@ -238,7 +238,7 @@ header .navegacion-enlace{
     height: 5rem;
 }
 
-header .navegacion-enlace:hover {
+header .navegacion-enlace:hover, .navegacion-enlace-admin:hover {
     color: var(--negro);
     border-bottom: 3px solid var(--negro);
     border-bottom-width: 50% !important;
@@ -1294,6 +1294,11 @@ footer p{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra suave */
     overflow-x: auto;
     font-family: var(--fuenteParrafos); /* Fuente para los párrafos */
+    position: sticky;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 #barra-busqueda .subcategory-link {
