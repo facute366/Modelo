@@ -1623,11 +1623,12 @@ footer p{
     }
 }
 
+/*
 @media (max-width: 386px){
     .add, .delete, .edit{
         font-size: 10px;
     }
-}
+}*/
 
 #categoriesContainer,#subcategoriesContainer{
     max-width: 500px;
